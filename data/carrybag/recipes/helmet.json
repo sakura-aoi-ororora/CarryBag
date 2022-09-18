@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "###",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "netherite_block"
+      }
+    },
+    "result": {
+      "item": "netherite_helmet",
+      "count": 1
+    }
+  }
+  

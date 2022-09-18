@@ -1,0 +1,1 @@
+execute as @e[type=chest_minecart,tag=carrybag,tag=wood] at @s run execute if entity @a[distance=..3,predicate=carrybag:sneaking] run function carrybag:carrybag/wood/bleak

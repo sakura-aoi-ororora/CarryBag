@@ -1,0 +1,4 @@
+summon chest_minecart ~ ~ ~ {NoGravity:true,Invulnerable:true,CustomNameVisible:true,Silent:true,Glowing:true,Tags:["carrybag","NewBag","wood"],CustomName:'{"text":"\\u6728\\u306e\\u30ad\\u30e3\\u30ea\\u30fc\\u30d0\\u30c3\\u30af","color":"#B8945F","bold": true,"italic": false}'}
+data modify entity @e[type=chest_minecart,tag=NewBag,tag=carrybag,tag=wood,limit=1,sort=nearest,distance=..0.5] Items set from entity @s SelectedItem.tag.LightStarTags.items
+tag @e[type=chest_minecart,tag=NewBag,tag=carrybag,tag=wood,limit=1,sort=nearest,distance=..0.5] remove NewBag
+item replace entity @s weapon.mainhand with air 1

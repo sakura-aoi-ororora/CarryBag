@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"ヘルメット（仮）\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"仮\",\"color\":\"white\",\"bold\":true,\"italic\":false}']},HideFlags:7,Unbreakable:1b,LightStarTags:{group:CarryBag,id:Helmet}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

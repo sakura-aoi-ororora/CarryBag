@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"木のキャリーバッグ\",\"color\":\"#B8945F\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"ただの木のキャリーバッグ。\",\"color\":\"#B8945F\",\"bold\":true,\"italic\":false}','{\"text\":\"27スタックほど入れられる。\",\"color\":\"#B8945F\",\"bold\":true,\"italic\":false}','{\"text\":\"物理法則はない模様。\",\"color\":\"#B8945F\",\"bold\":true,\"italic\":false}']},HideFlags:7,Unbreakable:1b,CustomModelData:2147483647,LightStarTags:{group:CarryBag,id:wood-carrybag,items:[]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
